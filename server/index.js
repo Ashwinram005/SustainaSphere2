@@ -9,7 +9,7 @@ const messagingServiceSid = process.env.TWILIO_MESSAGING_SERVICE_SID;
 const twilioClient = require("twilio")(accountSid, authToken);
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
 require("dotenv").config();
 

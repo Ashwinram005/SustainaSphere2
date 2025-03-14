@@ -59,7 +59,7 @@ const ChannelSearch = ({ setToggleContainer }) => {
                     <SearchIcon />
                 </div>
                 <input 
-                    className="channel-search__input__text" 
+                    className="channel-search__input__text text-black" 
                     placeholder="Search" 
                     type="text" 
                     value={query}  
